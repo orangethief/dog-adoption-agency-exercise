@@ -1,0 +1,124 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: verdana;
+
+}
+
+header{
+    padding: 2em;
+    color: blanchedalmond;
+    background-color:rgb(124, 63, 12);
+}
+
+header h1 {
+    font-size: 5em;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+main {
+    margin: 0 3rem 2rem ;
+}
+
+main h2 {
+    padding: 2rem 0 1rem;
+}
+
+
+#dogs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    }
+
+#dogs img{
+    width: 70%;
+    height: auto;
+    
+}
+
+#getintouch {
+    margin: 2rem auto;
+}
+
+
+
+input, textarea{
+   margin: .3rem 0 1rem; 
+   border-radius: 5px;
+}
+
+input {
+    height: 1.5rem;
+    width: 15rem;
+}
+
+textarea{
+    height: 5rem;
+    width: 15rem;
+}
+
+button{
+    background-color: rgb(124, 63, 12);
+    color:blanchedalmond;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    margin: 0 0 0.3rem 0.1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    header h1{
+     font-size: 3rem;
+     margin: 0 0 15px 0 ;       
+ }
+
+    header p{
+        font-size: 1.2rem;
+    } 
+    h2{ 
+     font-size: 2rem;
+     } 
+     p, li{
+        font-size: 1.1rem;
+     }
+ 
+    
+ }
+ 
+ 
+ @media only screen and (min-width: 601px) and (max-width: 992px) {
+    header h1{
+        font-size: 3rem;
+        margin: 0 0 15px 0 ;       
+    }
+   
+       header p{
+           font-size: 1.2rem;
+       } 
+       h2{ 
+        font-size: 2rem;
+        } 
+        p, li{
+           font-size: 1.1rem;
+        }
+     
+  }
+
+
+
+
